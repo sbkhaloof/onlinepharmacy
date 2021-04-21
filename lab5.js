@@ -1,8 +1,9 @@
 console.log('this is lab 5');
-var checkupnum= prompt('please enter checkup number');
-var pressure= prompt('please enter your sphagnomanometer reading as number/number');
+alert('now check your blood pressure');
+var checkupnum= prompt('please enter blood pressure checkup number');
 for (var i=1;i<= checkupnum;i++)
 {
+  var pressure= prompt('please enter your sphagnomanometer reading as number/number');
 if(pressure==='120/80')
 {
  var image ='<img src="https://images-na.ssl-images-amazon.com/images/I/61I1BXZTbML._AC_SL1403_.jpg" alt="perfect blood pressure reading"/>';

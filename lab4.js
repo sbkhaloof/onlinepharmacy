@@ -1,3 +1,4 @@
+alert(' check your weight');
 console.log('this is lab 4');
 var userweight= prompt('please enter your weight');
 var userlength= prompt('please enter your length');
